@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(100, 62, 136) !important;
+    background-image: url(images/pattern-hills.svg), url(images/bg-stars.svg);
+    background-position: center bottom, center;
+    background-repeat: no-repeat, repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+
+}
+p{
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #b1aeae;
+}
+.date{
+    width: 520px;
+    display: flex;
+    flex-direction: row;
+        text-align: center ;
+        justify-content: space-between;
+}
+.number{
+    width: 100px;
+    height: 100px;
+    box-shadow: 3px 10px 8px #000;
+    border-radius: 5%;
+    background-color: #1c1b4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    color: #c2149c;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.body{
+    padding-top: 25vh;
+    height: 45vh;
+
+}
+footer{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.socialMedia{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.socialMedia a{
+    margin-right: 30px;
+}
+.icon path:hover {
+    fill: #c2149c;
+}
+.attribution{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    display: flex;
+}
+
+    
+
+  @media only screen and (min-width: 0px) and (max-width: 767px){
+    
+    h1{
+        margin-bottom: 50px !important;
+        font-size: 1em !important;
+    
+    }
+    .date{
+        text-align: center !important;
+        width: 300px !important;
+    }
+    .number{
+        width: 40px !important;
+        height: 40px !important;
+        box-shadow: 3px 5px 8px #000 !important;
+        font-size: 1em !important;
+    }
+    p{
+        font-size: .7em !important;
+    }
+  }
+      
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px){
+    h1{
+        margin-bottom: 50px !important;
+        font-size: 1em !important;
+    
+    }
+    .date{
+        width: 400px !important;
+        text-align: center !important;
+    }
+    .number{
+        width: 60px !important;
+        height: 60px !important;
+        box-shadow: 3px 5px 8px #000 !important;
+        font-size: 1em !important;
+    }
+    p{
+        font-size: .7em !important;
+    }
+  }
